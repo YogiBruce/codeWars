@@ -1,0 +1,1 @@
+const strContains = (str, part) => str.slice
