@@ -5,12 +5,12 @@
 //Original solution
 const leftRotation = (arr, positions) => {
     for (i=0; i<positions; i++){
-        arr.unshift(arr.pop())
+        arr.push(arr.shift())
     }
     return arr
 };
 
-//Provided solution
+// Provided solution
 const leftRotation = (arr, positions) => {
     if (arr.length === 0) {
       return;
