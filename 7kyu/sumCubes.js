@@ -20,4 +20,5 @@ const sumCubes = (n) =>
     (acc, curr) => acc + curr
   );
 
-
+//Using math expression
+const sumCubes = (n) => (n * (n + 1)) ** 2 / 4;
